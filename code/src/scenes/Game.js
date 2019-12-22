@@ -37,8 +37,8 @@ export default class BootScene extends Phaser.Scene {
     this.addBricks();
     this.paddle = this.physics.add.image(window.innerWidth / 2, window.innerHeight - 129, 'breakout', 'paddle.png').setImmovable().setCollideWorldBounds();
     let desiredPaddleWidth = window.innerWidth / 9;
-    this.paddle.setScale(desiredPaddleWidth/this.paddle.width, 1);
-    this.ball = this.physics.add.image(this.paddle.x, this.paddle.y - 32, 'breakout', 'ball.png').setBounce(1).setCollideWorldBounds();
+    this.paddle.setScale(desiredPaddleWidth/this.paddle.width, 2);
+    this.ball = this.physics.add.image(this.paddle.x, this.paddle.y - 32, 'breakout', 'ball.png').setBounce(1).setCollideWorldBounds().setScale(0.75);
     this.addCollisions();
   }
 
@@ -80,9 +80,9 @@ export default class BootScene extends Phaser.Scene {
 
   addBricks() {
     this.bricks = this.physics.add.staticGroup({
-      key: 'breakout', frame: ['red.png', 'yellow.png', 'green.png', 'blue.png', 'purple.png', 'grey.png'], // the packed texture and frames from the atlas to use
+      key: 'breakout', frame: ['greenTile.png', 'orangeTile.png', 'purpleTile.png', 'tealTile.png', 'yellowTile.png'], // the packed texture and frames from the atlas to use
       frameQuantity: Math.floor(window.innerWidth / 64) - 2, // the amount of times to add each frame
-      gridAlign: { width: Math.floor(window.innerWidth / 64) - 2, height: 6, cellWidth: 64, cellHeight: 32, x: 32 + 64, y: 16 + 32 * 2}, // align the items in a grid defined by the config
+      gridAlign: { width: Math.floor(window.innerWidth / 64) - 2, height: 5, cellWidth: 64, cellHeight: 28, x: 28 + 64, y: 16 + 28 * 2}, // align the items in a grid defined by the config
     });
   }
 

@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>phaser</string>
         <key>textureFileName</key>
-        <filename>../../code/assets/rocketDrop.png</filename>
+        <filename>../../code/assets/breakout.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -132,7 +132,7 @@
             <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../code/assets/rocketDrop.json</filename>
+                <filename>../../code/assets/breakout.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -181,11 +181,26 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../../Creative Cloud Files/breakout/tiles/greenTile.psd</key>
-            <key type="filename">../../../../../Creative Cloud Files/breakout/tiles/orangeTile.psd</key>
-            <key type="filename">../../../../../Creative Cloud Files/breakout/tiles/purpleTile.psd</key>
-            <key type="filename">../../../../../Creative Cloud Files/breakout/tiles/tealTile.psd</key>
-            <key type="filename">../../../../../Creative Cloud Files/breakout/tiles/yellowTile.psd</key>
+            <key type="filename">../generated/ball.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>10,10,20,20</rect>
+                <key>scale9Paddings</key>
+                <rect>10,10,20,20</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/greenTile.png</key>
+            <key type="filename">../generated/orangeTile.png</key>
+            <key type="filename">../generated/purpleTile.png</key>
+            <key type="filename">../generated/tealTile.png</key>
+            <key type="filename">../generated/yellowTile.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -200,7 +215,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../generated/ball.png</key>
             <key type="filename">../generated/paddle.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -210,21 +224,21 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>16,16,32,32</rect>
+                <rect>16,3,31,5</rect>
                 <key>scale9Paddings</key>
-                <rect>16,16,32,32</rect>
+                <rect>16,3,31,5</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../../Creative Cloud Files/breakout/tiles/yellowTile.psd</filename>
-            <filename>../../../../../Creative Cloud Files/breakout/tiles/greenTile.psd</filename>
-            <filename>../../../../../Creative Cloud Files/breakout/tiles/orangeTile.psd</filename>
-            <filename>../../../../../Creative Cloud Files/breakout/tiles/purpleTile.psd</filename>
-            <filename>../../../../../Creative Cloud Files/breakout/tiles/tealTile.psd</filename>
             <filename>../generated/ball.png</filename>
+            <filename>../generated/greenTile.png</filename>
+            <filename>../generated/orangeTile.png</filename>
+            <filename>../generated/purpleTile.png</filename>
+            <filename>../generated/tealTile.png</filename>
+            <filename>../generated/yellowTile.png</filename>
             <filename>../generated/paddle.png</filename>
         </array>
         <key>ignoreFileList</key>
