@@ -26,13 +26,13 @@
             </struct>
         </array>
         <key>allowRotation</key>
-        <false/>
+        <true/>
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>phaser</string>
+        <string>spritesheet-only</string>
         <key>textureFileName</key>
         <filename></filename>
         <key>flipPVR</key>
@@ -56,7 +56,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
+        <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -74,7 +74,7 @@
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
-        <uint>1</uint>
+        <uint>0</uint>
         <key>webpQualityLevel</key>
         <uint>101</uint>
         <key>textureSubPath</key>
@@ -82,7 +82,7 @@
         <key>atfFormats</key>
         <string></string>
         <key>textureFormat</key>
-        <enum type="SettingsBase::TextureFormat">png8</enum>
+        <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
         <uint>0</uint>
         <key>maxTextureSize</key>
@@ -102,7 +102,7 @@
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -128,13 +128,7 @@
             </struct>
         </struct>
         <key>dataFileNames</key>
-        <map type="GFileNameMap">
-            <key>json</key>
-            <struct type="DataFile">
-                <key>name</key>
-                <filename>../code/assets/breakout.json</filename>
-            </struct>
-        </map>
+        <map type="GFileNameMap"/>
         <key>multiPack</key>
         <false/>
         <key>forceIdenticalLayout</key>
@@ -149,7 +143,7 @@
             <string></string>
         </struct>
         <key>autoAliasEnabled</key>
-        <true/>
+        <false/>
         <key>trimSpriteNames</key>
         <false/>
         <key>prependSmartFolderName</key>
@@ -163,13 +157,13 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>1</uint>
+            <uint>0</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -177,11 +171,18 @@
             <key>defaultPivotPoint</key>
             <point_f>0.5,0.5</point_f>
             <key>writePivotPoints</key>
-            <true/>
+            <false/>
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../ball.png</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket1.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket10.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket4.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket5.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket6.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket7.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket8.psd</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket9.psd</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -190,33 +191,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>6,6,11,11</rect>
+                <rect>16,16,32,32</rect>
                 <key>scale9Paddings</key>
-                <rect>6,6,11,11</rect>
+                <rect>16,16,32,32</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../blue.png</key>
-            <key type="filename">../../green.png</key>
-            <key type="filename">../../grey.png</key>
-            <key type="filename">../../purple.png</key>
-            <key type="filename">../../red.png</key>
-            <key type="filename">../../yellow.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,8,32,16</rect>
-                <key>scale9Paddings</key>
-                <rect>16,8,32,16</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../../paddle.png</key>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket2.psd</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -225,23 +206,40 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>26,6,52,12</rect>
+                <rect>20,20,39,39</rect>
                 <key>scale9Paddings</key>
-                <rect>26,6,52,12</rect>
+                <rect>20,20,39,39</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../../../Creative Cloud Files/breakout/rocket3.psd</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>23,23,45,45</rect>
+                <key>scale9Paddings</key>
+                <rect>23,23,45,45</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../ball.png</filename>
-            <filename>../../blue.png</filename>
-            <filename>../../green.png</filename>
-            <filename>../../grey.png</filename>
-            <filename>../../paddle.png</filename>
-            <filename>../../purple.png</filename>
-            <filename>../../red.png</filename>
-            <filename>../../yellow.png</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket1.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket2.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket3.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket4.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket5.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket6.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket7.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket8.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket9.psd</filename>
+            <filename>../../../../../Creative Cloud Files/breakout/rocket10.psd</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

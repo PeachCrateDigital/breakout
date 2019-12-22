@@ -4,105 +4,55 @@
 			"image": "breakout.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 132,
-				"h": 128
+				"w": 242,
+				"h": 60
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "blue.png",
+					"filename": "ball.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 64,
-						"h": 32
+						"h": 64
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 64,
-						"h": 32
+						"x": 11,
+						"y": 11,
+						"w": 42,
+						"h": 42
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 64,
-						"h": 32
+						"w": 42,
+						"h": 42
 					},
 					"anchor": {
-						"x": 0,
-						"y": 0
-					}
-				},
-				{
-					"filename": "green.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 64,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 64,
-						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 35,
-						"w": 64,
-						"h": 32
-					},
-					"anchor": {
-						"x": 0,
-						"y": 0
-					}
-				},
-				{
-					"filename": "grey.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 64,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 64,
-						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 69,
-						"w": 64,
-						"h": 32
-					},
-					"anchor": {
-						"x": 0,
-						"y": 0
+						"x": 0.46875,
+						"y": 1.046875
 					}
 				},
 				{
 					"filename": "paddle.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 104,
-						"h": 24
+						"w": 64,
+						"h": 64
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 104,
-						"h": 24
+						"y": 26,
+						"w": 64,
+						"h": 12
 					},
 					"frame": {
 						"x": 1,
-						"y": 103,
-						"w": 104,
-						"h": 24
+						"y": 45,
+						"w": 64,
+						"h": 12
 					},
 					"anchor": {
 						"x": 0.5,
@@ -110,99 +60,124 @@
 					}
 				},
 				{
-					"filename": "purple.png",
+					"filename": "greenTile.psd",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"frame": {
-						"x": 67,
+						"x": 45,
 						"y": 1,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"anchor": {
-						"x": 0,
-						"y": 0
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
-					"filename": "red.png",
+					"filename": "orangeTile.psd",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"frame": {
 						"x": 67,
-						"y": 35,
+						"y": 31,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"anchor": {
-						"x": 0,
-						"y": 0
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
-					"filename": "yellow.png",
+					"filename": "purpleTile.psd",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"frame": {
-						"x": 67,
-						"y": 69,
+						"x": 111,
+						"y": 1,
 						"w": 64,
-						"h": 32
+						"h": 28
 					},
 					"anchor": {
-						"x": 0,
-						"y": 0
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
-					"filename": "ball.png",
+					"filename": "tealTile.psd",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 22,
-						"h": 22
+						"w": 64,
+						"h": 28
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 22,
-						"h": 22
+						"w": 64,
+						"h": 28
 					},
 					"frame": {
-						"x": 107,
-						"y": 103,
-						"w": 22,
-						"h": 22
+						"x": 133,
+						"y": 31,
+						"w": 64,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "yellowTile.psd",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 28
+					},
+					"frame": {
+						"x": 177,
+						"y": 1,
+						"w": 64,
+						"h": 28
 					},
 					"anchor": {
 						"x": 0.5,
@@ -215,6 +190,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:ddcc154810af3254ff90caec63785712:f34e4c14e96b4fe4005145ab6f4c3bf5:aa94e37632703bccd6a813800bf3159a$"
+		"smartupdate": "$TexturePacker:SmartUpdate:66701d15c6a4ff8e88c641a5118b47ad:8f95cdb77ba39b11d0a638c63b02deb9:aa94e37632703bccd6a813800bf3159a$"
 	}
 }
