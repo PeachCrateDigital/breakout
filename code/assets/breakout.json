@@ -4,61 +4,11 @@
 			"image": "breakout.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 240,
-				"h": 60
+				"w": 123,
+				"h": 296
 			},
 			"scale": 1,
 			"frames": [
-				{
-					"filename": "ball.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 40,
-						"h": 40
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 40,
-						"h": 40
-					},
-					"frame": {
-						"x": 1,
-						"y": 1,
-						"w": 40,
-						"h": 40
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "paddle.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 64
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 26,
-						"w": 64,
-						"h": 12
-					},
-					"frame": {
-						"x": 1,
-						"y": 43,
-						"w": 64,
-						"h": 12
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
 				{
 					"filename": "greenTile.psd",
 					"rotated": false,
@@ -74,10 +24,60 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 43,
+						"x": 1,
 						"y": 1,
 						"w": 64,
 						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket01.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 22,
+						"w": 55,
+						"h": 20
+					},
+					"frame": {
+						"x": 67,
+						"y": 1,
+						"w": 55,
+						"h": 20
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket02.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 79,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 21,
+						"w": 54,
+						"h": 27
+					},
+					"frame": {
+						"x": 67,
+						"y": 23,
+						"w": 54,
+						"h": 27
 					},
 					"anchor": {
 						"x": 0.5,
@@ -99,10 +99,35 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 67,
+						"x": 1,
 						"y": 31,
 						"w": 64,
 						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket03.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 91,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 20,
+						"w": 44,
+						"h": 45
+					},
+					"frame": {
+						"x": 67,
+						"y": 52,
+						"w": 44,
+						"h": 45
 					},
 					"anchor": {
 						"x": 0.5,
@@ -124,8 +149,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 109,
-						"y": 1,
+						"x": 1,
+						"y": 61,
 						"w": 64,
 						"h": 28
 					},
@@ -149,10 +174,35 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 133,
-						"y": 31,
+						"x": 1,
+						"y": 91,
 						"w": 64,
 						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "heart02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 43,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 43,
+						"h": 33
+					},
+					"frame": {
+						"x": 67,
+						"y": 99,
+						"w": 43,
+						"h": 33
 					},
 					"anchor": {
 						"x": 0.5,
@@ -174,10 +224,285 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 175,
-						"y": 1,
+						"x": 1,
+						"y": 121,
 						"w": 64,
 						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "heart03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 43,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 43,
+						"h": 33
+					},
+					"frame": {
+						"x": 67,
+						"y": 134,
+						"w": 43,
+						"h": 33
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "paddle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 26,
+						"w": 64,
+						"h": 12
+					},
+					"frame": {
+						"x": 1,
+						"y": 151,
+						"w": 64,
+						"h": 12
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "ball.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 40
+					},
+					"frame": {
+						"x": 1,
+						"y": 165,
+						"w": 40,
+						"h": 40
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket06.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 20,
+						"h": 64
+					},
+					"frame": {
+						"x": 43,
+						"y": 165,
+						"w": 20,
+						"h": 64
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket07.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 20,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 231,
+						"w": 20,
+						"h": 64
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket09.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 20,
+						"h": 64
+					},
+					"frame": {
+						"x": 23,
+						"y": 231,
+						"w": 20,
+						"h": 64
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket10.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 0,
+						"w": 20,
+						"h": 64
+					},
+					"frame": {
+						"x": 45,
+						"y": 231,
+						"w": 20,
+						"h": 64
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket05.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 5,
+						"w": 20,
+						"h": 59
+					},
+					"frame": {
+						"x": 65,
+						"y": 169,
+						"w": 20,
+						"h": 59
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "heart01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 27
+					},
+					"frame": {
+						"x": 87,
+						"y": 169,
+						"w": 35,
+						"h": 27
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket08.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 1,
+						"w": 20,
+						"h": 63
+					},
+					"frame": {
+						"x": 67,
+						"y": 230,
+						"w": 20,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket04.psd",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 5,
+						"w": 20,
+						"h": 55
+					},
+					"frame": {
+						"x": 89,
+						"y": 198,
+						"w": 20,
+						"h": 55
 					},
 					"anchor": {
 						"x": 0.5,
@@ -190,6 +515,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:411851d22ea1098aadfefc910e32f5ba:8ab76be6962676eaf7598642f0330fe2:aa94e37632703bccd6a813800bf3159a$"
+		"smartupdate": "$TexturePacker:SmartUpdate:70e76c16543a242c467f85b911700184:313b3cd13dafe33611dc12cbbbb83fb9:aa94e37632703bccd6a813800bf3159a$"
 	}
 }
