@@ -4,7 +4,7 @@
 			"image": "breakout.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 242,
+				"w": 240,
 				"h": 60
 			},
 			"scale": 1,
@@ -12,26 +12,26 @@
 				{
 					"filename": "ball.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
-						"w": 64,
-						"h": 64
+						"w": 40,
+						"h": 40
 					},
 					"spriteSourceSize": {
-						"x": 11,
-						"y": 11,
-						"w": 42,
-						"h": 42
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 40
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 42,
-						"h": 42
+						"w": 40,
+						"h": 40
 					},
 					"anchor": {
-						"x": 0.46875,
-						"y": 1.046875
+						"x": 0.5,
+						"y": 0.5
 					}
 				},
 				{
@@ -50,7 +50,7 @@
 					},
 					"frame": {
 						"x": 1,
-						"y": 45,
+						"y": 43,
 						"w": 64,
 						"h": 12
 					},
@@ -74,7 +74,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 45,
+						"x": 43,
 						"y": 1,
 						"w": 64,
 						"h": 28
@@ -124,7 +124,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 111,
+						"x": 109,
 						"y": 1,
 						"w": 64,
 						"h": 28
@@ -174,7 +174,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 177,
+						"x": 175,
 						"y": 1,
 						"w": 64,
 						"h": 28
@@ -190,6 +190,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:66701d15c6a4ff8e88c641a5118b47ad:8f95cdb77ba39b11d0a638c63b02deb9:aa94e37632703bccd6a813800bf3159a$"
+		"smartupdate": "$TexturePacker:SmartUpdate:411851d22ea1098aadfefc910e32f5ba:8ab76be6962676eaf7598642f0330fe2:aa94e37632703bccd6a813800bf3159a$"
 	}
 }
