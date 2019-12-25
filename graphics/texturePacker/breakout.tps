@@ -177,7 +177,7 @@
             <key>defaultPivotPoint</key>
             <point_f>0.5,0.5</point_f>
             <key>writePivotPoints</key>
-            <false/>
+            <true/>
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
@@ -193,6 +193,59 @@
                 <rect>10,10,20,20</rect>
                 <key>scale9Paddings</key>
                 <rect>10,10,20,20</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/dualBall01.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>15,7,30,14</rect>
+                <key>scale9Paddings</key>
+                <rect>15,7,30,14</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/dualBall02.png</key>
+            <key type="filename">../generated/dualBall04.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>12,7,25,14</rect>
+                <key>scale9Paddings</key>
+                <rect>12,7,25,14</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/dualBall03.png</key>
+            <key type="filename">../generated/magnet01.png</key>
+            <key type="filename">../generated/magnet02.png</key>
+            <key type="filename">../generated/magnet06.png</key>
+            <key type="filename">../generated/magnet07.png</key>
+            <key type="filename">../generated/magnet08.png</key>
+            <key type="filename">../generated/magnet11.png</key>
+            <key type="filename">../generated/magnet12.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,7,14,14</rect>
+                <key>scale9Paddings</key>
+                <rect>7,7,14,14</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -215,6 +268,98 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../generated/heart01.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>9,7,17,13</rect>
+                <key>scale9Paddings</key>
+                <rect>9,7,17,13</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/heart02.png</key>
+            <key type="filename">../generated/heart03.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>11,8,21,17</rect>
+                <key>scale9Paddings</key>
+                <rect>11,8,21,17</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/magnet03.png</key>
+            <key type="filename">../generated/magnet05.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,3,14,5</rect>
+                <key>scale9Paddings</key>
+                <rect>7,3,14,5</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/magnet04.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,2,14,3</rect>
+                <key>scale9Paddings</key>
+                <rect>7,2,14,3</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/magnet09.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,6,14,13</rect>
+                <key>scale9Paddings</key>
+                <rect>7,6,14,13</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/magnet10.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,6,14,11</rect>
+                <key>scale9Paddings</key>
+                <rect>7,6,14,11</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../generated/paddle.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -230,16 +375,153 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../generated/rocket01.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>13,5,27,9</rect>
+                <key>scale9Paddings</key>
+                <rect>13,5,27,9</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket02.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>13,6,26,13</rect>
+                <key>scale9Paddings</key>
+                <rect>13,6,26,13</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket03.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>11,11,21,21</rect>
+                <key>scale9Paddings</key>
+                <rect>11,11,21,21</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket04.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,13,9,27</rect>
+                <key>scale9Paddings</key>
+                <rect>5,13,9,27</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket05.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,15,9,29</rect>
+                <key>scale9Paddings</key>
+                <rect>5,15,9,29</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket06.png</key>
+            <key type="filename">../generated/rocket07.png</key>
+            <key type="filename">../generated/rocket09.png</key>
+            <key type="filename">../generated/rocket10.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,16,9,32</rect>
+                <key>scale9Paddings</key>
+                <rect>5,16,9,32</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../generated/rocket08.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,16,9,31</rect>
+                <key>scale9Paddings</key>
+                <rect>5,16,9,31</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileList</key>
         <array>
             <filename>../generated/ball.png</filename>
             <filename>../generated/greenTile.png</filename>
+            <filename>../generated/heart01.png</filename>
+            <filename>../generated/heart02.png</filename>
+            <filename>../generated/heart03.png</filename>
             <filename>../generated/orangeTile.png</filename>
             <filename>../generated/purpleTile.png</filename>
+            <filename>../generated/rocket01.png</filename>
+            <filename>../generated/rocket02.png</filename>
+            <filename>../generated/rocket03.png</filename>
+            <filename>../generated/rocket04.png</filename>
+            <filename>../generated/rocket05.png</filename>
+            <filename>../generated/rocket06.png</filename>
+            <filename>../generated/rocket07.png</filename>
+            <filename>../generated/rocket08.png</filename>
+            <filename>../generated/rocket09.png</filename>
+            <filename>../generated/rocket10.png</filename>
             <filename>../generated/tealTile.png</filename>
             <filename>../generated/yellowTile.png</filename>
             <filename>../generated/paddle.png</filename>
+            <filename>../generated/magnet01.png</filename>
+            <filename>../generated/magnet02.png</filename>
+            <filename>../generated/magnet03.png</filename>
+            <filename>../generated/magnet04.png</filename>
+            <filename>../generated/magnet05.png</filename>
+            <filename>../generated/magnet06.png</filename>
+            <filename>../generated/magnet07.png</filename>
+            <filename>../generated/magnet08.png</filename>
+            <filename>../generated/magnet09.png</filename>
+            <filename>../generated/magnet10.png</filename>
+            <filename>../generated/magnet11.png</filename>
+            <filename>../generated/magnet12.png</filename>
+            <filename>../generated/dualBall01.png</filename>
+            <filename>../generated/dualBall02.png</filename>
+            <filename>../generated/dualBall03.png</filename>
+            <filename>../generated/dualBall04.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

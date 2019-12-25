@@ -4,8 +4,8 @@
 			"image": "breakout.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 337,
-				"h": 124
+				"w": 384,
+				"h": 126
 			},
 			"scale": 1,
 			"frames": [
@@ -35,24 +35,24 @@
 					}
 				},
 				{
-					"filename": "rocket04.png",
+					"filename": "rocket05.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 18,
-						"h": 53
+						"h": 58
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 18,
-						"h": 53
+						"h": 58
 					},
 					"frame": {
 						"x": 1,
 						"y": 67,
 						"w": 18,
-						"h": 53
+						"h": 58
 					},
 					"anchor": {
 						"x": 0.5,
@@ -85,24 +85,24 @@
 					}
 				},
 				{
-					"filename": "rocket03.png",
+					"filename": "rocket04.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 42,
-						"h": 43
+						"w": 18,
+						"h": 53
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 42,
-						"h": 43
+						"w": 18,
+						"h": 53
 					},
 					"frame": {
 						"x": 21,
 						"y": 67,
-						"w": 42,
-						"h": 43
+						"w": 18,
+						"h": 53
 					},
 					"anchor": {
 						"x": 0.5,
@@ -135,6 +135,31 @@
 					}
 				},
 				{
+					"filename": "rocket03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 43
+					},
+					"frame": {
+						"x": 41,
+						"y": 67,
+						"w": 42,
+						"h": 43
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
 					"filename": "rocket10.png",
 					"rotated": false,
 					"trimmed": false,
@@ -153,56 +178,6 @@
 						"y": 1,
 						"w": 18,
 						"h": 64
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "paddle.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 62,
-						"h": 10
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 62,
-						"h": 10
-					},
-					"frame": {
-						"x": 21,
-						"y": 112,
-						"w": 62,
-						"h": 10
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "ball.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 40,
-						"h": 40
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 40,
-						"h": 40
-					},
-					"frame": {
-						"x": 65,
-						"y": 67,
-						"w": 40,
-						"h": 40
 					},
 					"anchor": {
 						"x": 0.5,
@@ -235,23 +210,23 @@
 					}
 				},
 				{
-					"filename": "magnet03.png",
+					"filename": "paddle.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 28,
+						"w": 62,
 						"h": 10
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 28,
+						"w": 62,
 						"h": 10
 					},
 					"frame": {
-						"x": 85,
-						"y": 109,
-						"w": 28,
+						"x": 41,
+						"y": 112,
+						"w": 62,
 						"h": 10
 					},
 					"anchor": {
@@ -260,24 +235,49 @@
 					}
 				},
 				{
-					"filename": "rocket05.png",
+					"filename": "ball.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 18,
-						"h": 58
+						"w": 40,
+						"h": 40
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 18,
-						"h": 58
+						"w": 40,
+						"h": 40
 					},
 					"frame": {
-						"x": 101,
-						"y": 1,
-						"w": 18,
-						"h": 58
+						"x": 85,
+						"y": 65,
+						"w": 40,
+						"h": 40
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rocket01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 18
+					},
+					"frame": {
+						"x": 105,
+						"y": 107,
+						"w": 53,
+						"h": 18
 					},
 					"anchor": {
 						"x": 0.5,
@@ -299,8 +299,8 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 107,
-						"y": 61,
+						"x": 101,
+						"y": 1,
 						"w": 43,
 						"h": 33
 					},
@@ -324,8 +324,8 @@
 						"h": 27
 					},
 					"frame": {
-						"x": 115,
-						"y": 96,
+						"x": 101,
+						"y": 36,
 						"w": 35,
 						"h": 27
 					},
@@ -349,8 +349,8 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 121,
-						"y": 1,
+						"x": 127,
+						"y": 65,
 						"w": 43,
 						"h": 33
 					},
@@ -360,24 +360,24 @@
 					}
 				},
 				{
-					"filename": "magnet10.png",
+					"filename": "rocket02.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 28,
-						"h": 22
+						"w": 52,
+						"h": 25
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 28,
-						"h": 22
+						"w": 52,
+						"h": 25
 					},
 					"frame": {
-						"x": 121,
-						"y": 36,
-						"w": 28,
-						"h": 22
+						"x": 160,
+						"y": 100,
+						"w": 52,
+						"h": 25
 					},
 					"anchor": {
 						"x": 0.5,
@@ -385,24 +385,24 @@
 					}
 				},
 				{
-					"filename": "rocket01.png",
+					"filename": "magnet09.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 53,
-						"h": 18
+						"w": 28,
+						"h": 25
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 53,
-						"h": 18
+						"w": 28,
+						"h": 25
 					},
 					"frame": {
-						"x": 151,
+						"x": 138,
 						"y": 36,
-						"w": 53,
-						"h": 18
+						"w": 28,
+						"h": 25
 					},
 					"anchor": {
 						"x": 0.5,
@@ -424,7 +424,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 166,
+						"x": 146,
 						"y": 1,
 						"w": 64,
 						"h": 28
@@ -449,8 +449,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 152,
-						"y": 56,
+						"x": 168,
+						"y": 31,
 						"w": 64,
 						"h": 28
 					},
@@ -474,60 +474,10 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 152,
-						"y": 86,
+						"x": 212,
+						"y": 1,
 						"w": 64,
 						"h": 28
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "magnet04.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 28,
-						"h": 7
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 28,
-						"h": 7
-					},
-					"frame": {
-						"x": 152,
-						"y": 116,
-						"w": 28,
-						"h": 7
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "magnet05.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 28,
-						"h": 10
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 28,
-						"h": 10
-					},
-					"frame": {
-						"x": 206,
-						"y": 31,
-						"w": 28,
-						"h": 10
 					},
 					"anchor": {
 						"x": 0.5,
@@ -549,34 +499,9 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 232,
-						"y": 1,
+						"x": 172,
+						"y": 61,
 						"w": 64,
-						"h": 28
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "magnet01.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 28,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 28,
-						"h": 28
-					},
-					"frame": {
-						"x": 298,
-						"y": 1,
-						"w": 28,
 						"h": 28
 					},
 					"anchor": {
@@ -599,9 +524,159 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 236,
+						"x": 234,
 						"y": 31,
 						"w": 64,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "dualBall01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 28
+					},
+					"frame": {
+						"x": 278,
+						"y": 1,
+						"w": 60,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "magnet04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 7
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 7
+					},
+					"frame": {
+						"x": 172,
+						"y": 91,
+						"w": 28,
+						"h": 7
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "dualBall02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 28
+					},
+					"frame": {
+						"x": 214,
+						"y": 91,
+						"w": 49,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "dualBall04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 49,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 28
+					},
+					"frame": {
+						"x": 238,
+						"y": 61,
+						"w": 49,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "dualBall03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 28
+					},
+					"frame": {
+						"x": 265,
+						"y": 91,
+						"w": 28,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "magnet01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 28
+					},
+					"frame": {
+						"x": 289,
+						"y": 61,
+						"w": 28,
 						"h": 28
 					},
 					"anchor": {
@@ -624,7 +699,7 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 302,
+						"x": 300,
 						"y": 31,
 						"w": 28,
 						"h": 28
@@ -649,8 +724,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 218,
-						"y": 61,
+						"x": 295,
+						"y": 91,
 						"w": 28,
 						"h": 28
 					},
@@ -674,8 +749,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 218,
-						"y": 91,
+						"x": 319,
+						"y": 61,
 						"w": 28,
 						"h": 28
 					},
@@ -699,8 +774,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 248,
-						"y": 61,
+						"x": 330,
+						"y": 31,
 						"w": 28,
 						"h": 28
 					},
@@ -724,35 +799,10 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 248,
-						"y": 91,
+						"x": 340,
+						"y": 1,
 						"w": 28,
 						"h": 28
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "rocket02.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 52,
-						"h": 25
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 52,
-						"h": 25
-					},
-					"frame": {
-						"x": 278,
-						"y": 61,
-						"w": 52,
-						"h": 25
 					},
 					"anchor": {
 						"x": 0.5,
@@ -774,8 +824,8 @@
 						"h": 28
 					},
 					"frame": {
-						"x": 278,
-						"y": 88,
+						"x": 325,
+						"y": 91,
 						"w": 28,
 						"h": 28
 					},
@@ -785,24 +835,74 @@
 					}
 				},
 				{
-					"filename": "magnet09.png",
+					"filename": "magnet10.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 28,
-						"h": 25
+						"h": 22
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
 						"w": 28,
-						"h": 25
+						"h": 22
 					},
 					"frame": {
-						"x": 308,
-						"y": 88,
+						"x": 355,
+						"y": 61,
 						"w": 28,
-						"h": 25
+						"h": 22
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "magnet03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 10
+					},
+					"frame": {
+						"x": 355,
+						"y": 85,
+						"w": 28,
+						"h": 10
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "magnet05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 10
+					},
+					"frame": {
+						"x": 355,
+						"y": 97,
+						"w": 28,
+						"h": 10
 					},
 					"anchor": {
 						"x": 0.5,
@@ -815,6 +915,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:2a56c164d2e3e23a69c2ffccfcc6973c:ecab1215e24a8d30eb7f1cc0172302f1:aa94e37632703bccd6a813800bf3159a$"
+		"smartupdate": "$TexturePacker:SmartUpdate:748a9fd0a74ab4a2105e1c8f980d357c:b36e6ab7d3808aa639faf285001abff1:aa94e37632703bccd6a813800bf3159a$"
 	}
 }
